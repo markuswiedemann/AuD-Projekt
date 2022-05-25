@@ -50,10 +50,6 @@ def mergeSort(arr, l, r):
 # Driver code to test above
 arr=[3,8,4,2,5,45,34,23,89,876,6,56,7,9,0]
 n = len(arr)
-print("Given array is")
-for i in range(n):
-    print("%d" % arr[i],end=" ")
 mergeSort(arr, 0, n-1)
 print("\n\nSorted array is")
-for i in range(n):
-    print("%d" % arr[i],end=" ")
+print(arr)
